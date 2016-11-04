@@ -1,0 +1,18 @@
+Teamarbeit mit Willy
+
+Text to Speech verarbeitung auf den Zynq board
+
+Implementierung in das OS
+
+Offline Processing
+
+Englisch als TTS Sprache
+
+Xilinx Compiler -> C
+
+Dokumentation ist funktionaler Natur
+-> was hat man gemacht, wie hat man es gemacht.
+->Probleme Lösungen
+-> Welche Technologien wurden verwendet.
+
+1. Woche 02.11. - 09.11.  Recherche der Technologien, Interfaces Handout
