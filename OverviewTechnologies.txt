@@ -1,0 +1,41 @@
+Struktur:
+-Name
+-Compatibilität, embedded
+-Sprache
+-TTS Englisch Unterstützt? Qualität und Quantität
+-Input Output
+-Size
+
+Festival http://www.cstr.ed.ac.uk/projects/festival/
+c++ ->nicht kompatible mit unserem Compiler??
+-Festival ist ein TTS Projekt geführt von der Universität Edinburgh
+updated und support vorhanden
+
+
+
+"Flite (festival-lite): a small, fast run time synthesis engine " http://www.speech.cs.cmu.edu/flite/
+-> ist eine synthesis, also wohl auch mit Speechregocnition??? Könnte ja Funktionalität auf TTS herunterbrechen??---> MEHR AUFWAND
+
+-in C geschrieben, speziell angepasst für embedded Systems
+-Target architectures, ipaq (Linux/WinCE), Palm OS (treo) and smaller (PDA software)
+->Flite is also included in the Debian package library so installation is similar too Festival. (https://learn.adafruit.com/speech-synthesis-on-the-raspberry-pi/speak-easier-flite)-> evtl funktioniert auch Festival mit dem Zynqboard.
+
+
+eSpeak http://espeak.sourceforge.net
+Für Linux kompatible, auch für Embedded geeignet
+In C geschrieben, sehr Kompatk 2MB
+kann als frontend für MBROLA(http://tcts.fpms.ac.be/synthesis/mbrola.html) genutzt werden
+Produziert Soundfile als Output
+ABER: Sehr simple TTS schlecht zu verstehen ---> Sample abspielen.
+-> kann aber Text in phonetischen Text übersetzen und wäre damit als basis für einen besseren Sprechalgo eine option.
+2MB
+benötigt aber noch eine Sprachsoftware zB MBROLA(http://tcts.fpms.ac.be/synthesis/mbrola.html)
+
+festvox http://festvox.org/index.html aufgesetzt auf Festival ---> Umständlich
+Für Unix/Linux systeme
+ziemlich Groß da es Festival erweitert
+
+
+
+
+

@@ -16,3 +16,5 @@ Dokumentation ist funktionaler Natur
 -> Welche Technologien wurden verwendet.
 
 1. Woche 02.11. - 09.11.  Recherche der Technologien, Interfaces Handout
+2. Woche 09.11. - 16.11. Crosscompilen, funktionstest
+3. Woche 16.11. - 14.12. Implementierung der Interfaces
